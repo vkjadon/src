@@ -1,0 +1,9 @@
+# Goal - Cruise Speed
+int64 cruise_speed
+int64 cruise_step
+---
+# Result
+int64 final_speed
+---
+#Feedback
+int64 current_speed

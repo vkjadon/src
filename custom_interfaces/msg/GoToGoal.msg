@@ -1,0 +1,2 @@
+string goal_name
+geometry_msgs/Point goal_position

@@ -1,0 +1,5 @@
+motor_pid:
+  ros__parameters:
+    desired_rpm: 25.0
+    kp: 0.11
+    kd: 0.03

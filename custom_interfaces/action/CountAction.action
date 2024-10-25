@@ -1,0 +1,8 @@
+# MyAction.action
+int32 goal_count   # The goal, number to count up to
+---
+# Result definition
+string result_message
+---
+# Feedback definition
+int32 current_progress  # Percentage progress
