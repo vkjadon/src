@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
 from custom_interfaces.action import CruiseSpeed
+import time
 
 class CruiseActionServerNode(Node):
 
@@ -21,6 +22,7 @@ class CruiseActionServerNode(Node):
         for i in range (self.speed, cruise_speed, cruise_step):
             current_speed=current_speed + cruise_step 
             self.get_logger().info(f"Execute Callback Invoked !! {current_speed}")
+            time.sleep(1)
             
         handle.succeed()
 

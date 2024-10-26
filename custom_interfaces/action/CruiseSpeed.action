@@ -1,4 +1,4 @@
-# Action definition - Cruise Speed
+# Goal definition - Cruise Speed
 int64 cruise_speed
 int64 cruise_step
 ---
