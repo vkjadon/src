@@ -23,8 +23,9 @@ setup(
             "action_server_exe=test_action.action_server:main",
             "action_client_exe=test_action.action_client:main",
             "cruise_server_exe=test_action.cruise_server:main",
-            "cruise_client_exe=test_action.cruise_client:main"
-
+            "cruise_client_exe=test_action.cruise_client:main",
+            "fibonacci_server_exe=test_action.fibonacci_server:main",
+            "fibonacci_client_exe=test_action.fibonacci_client:main",
         ],
     },
 )

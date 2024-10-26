@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "action/CruiseSpeed.action"
   "action/CountAction.action"
+  "action/Fibonacci.action"
   DEPENDENCIES 
     geometry_msgs 
     # turtlesim

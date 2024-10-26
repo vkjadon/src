@@ -13,16 +13,16 @@ class CruiseActionServerNode(Node):
         self.get_logger().info("Action Server Node Started !! Waiting For request")
         self.speed=70
 
-    def callback_cruise_server(self, goal_handle):
-        cruise_speed = goal_handle.request.cruise_speed
-        cruise_step = goal_handle.request.cruise_step
+    def callback_cruise_server(self, handle):
+        cruise_speed = handle.request.cruise_speed
+        cruise_step = handle.request.cruise_step
         current_speed = self.speed
 
         for i in range (self.speed, cruise_speed, cruise_step):
             current_speed=current_speed + cruise_step 
             self.get_logger().info(f"Execute Callback Invoked !! {current_speed}")
             
-        goal_handle.succeed()
+        handle.succeed()
 
         result = CruiseSpeed.Result()
         result.final_speed = current_speed

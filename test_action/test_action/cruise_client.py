@@ -29,7 +29,7 @@ def main():
 
     try:
         node = CruiseActionClientNode()
-        node.send_goal(120,5)
+        node.send_goal(150,5)
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()

@@ -1,3 +1,27 @@
 {
-    "cmake.ignoreCMakeListsMissing": true
+    "cmake.ignoreCMakeListsMissing": true,
+    "python.autoComplete.extraPaths": [
+        "/home/ros/ros2_ws/install/test_turtle/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_topic/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_service/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_param/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_interfaces/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_action/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/dc_motor_control/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ros/ros2_ws/install/test_turtle/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_topic/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_service/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_param/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_interfaces/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/test_action/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/dc_motor_control/lib/python3.10/site-packages",
+        "/home/ros/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }
